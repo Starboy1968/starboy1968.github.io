@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t">
+<title id="t">The eight stages of the Supply Web Audit, each followed by a human sign-off</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#0f5e63"/></marker></defs>
+<rect width="800" height="500" fill="#fff"/>
+<g font-family="system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="30" y="62" font-size="26" font-weight="700" fill="#1f2a2e">Supply Web Audit: 8 stages</text>
+<text x="30" y="92" font-size="16" fill="#4b5a5f">A person signs off (✓) before each next stage begins</text>
+<rect x="30" y="120" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="46" y="152" font-size="16" font-weight="700" fill="#0f5e63">01</text>
+<text x="46" y="188" font-size="19" font-weight="600" fill="#1f2a2e">Scope</text>
+<line x1="192" y1="168.0" x2="216" y2="168.0" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="206.0" cy="152.0" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M202.0 152.0 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="224" y="120" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="240" y="152" font-size="16" font-weight="700" fill="#0f5e63">02</text>
+<text x="240" y="188" font-size="19" font-weight="600" fill="#1f2a2e">Players</text>
+<line x1="386" y1="168.0" x2="410" y2="168.0" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="400.0" cy="152.0" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M396.0 152.0 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="418" y="120" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="434" y="152" font-size="16" font-weight="700" fill="#0f5e63">03</text>
+<text x="434" y="188" font-size="19" font-weight="600" fill="#1f2a2e">Link ledger</text>
+<line x1="580" y1="168.0" x2="604" y2="168.0" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="594.0" cy="152.0" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M590.0 152.0 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="612" y="120" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="628" y="152" font-size="16" font-weight="700" fill="#0f5e63">04</text>
+<text x="628" y="188" font-size="19" font-weight="600" fill="#1f2a2e">Money map</text>
+<path d="M691.0 220 V256 H109.0 V302" fill="none" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="400.0" cy="256" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M396.0 256 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="30" y="310" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="46" y="342" font-size="16" font-weight="700" fill="#0f5e63">05</text>
+<text x="46" y="378" font-size="19" font-weight="600" fill="#1f2a2e">Narrow points</text>
+<line x1="192" y1="358.0" x2="216" y2="358.0" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="206.0" cy="342.0" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M202.0 342.0 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="224" y="310" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="240" y="342" font-size="16" font-weight="700" fill="#0f5e63">06</text>
+<text x="240" y="378" font-size="19" font-weight="600" fill="#1f2a2e">Behavior</text>
+<line x1="386" y1="358.0" x2="410" y2="358.0" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="400.0" cy="342.0" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M396.0 342.0 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="418" y="310" width="158" height="96" rx="12" fill="#e6f2f2" stroke="#0f5e63" stroke-width="2"/>
+<text x="434" y="342" font-size="16" font-weight="700" fill="#0f5e63">07</text>
+<text x="434" y="378" font-size="19" font-weight="600" fill="#1f2a2e">Test moves</text>
+<line x1="580" y1="358.0" x2="604" y2="358.0" stroke="#0f5e63" stroke-width="2.5" marker-end="url(#a)"/>
+<circle cx="594.0" cy="342.0" r="9" fill="#fff" stroke="#0f5e63" stroke-width="2"/><path d="M590.0 342.0 l3 3 l5 -6" fill="none" stroke="#0f5e63" stroke-width="2"/>
+<rect x="612" y="310" width="158" height="96" rx="12" fill="#0f5e63" stroke="#0f5e63" stroke-width="2"/>
+<text x="628" y="342" font-size="16" font-weight="700" fill="#cfe6e6">08</text>
+<text x="628" y="378" font-size="19" font-weight="600" fill="#fff">Signed report</text>
+</g></svg>

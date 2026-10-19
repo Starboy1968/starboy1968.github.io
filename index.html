@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rashon Alsberry | Supply chain and third-party risk, automated</title>
+<meta name="description" content="Rashon Alsberry maps who a business depends on, finds hidden single points of failure, and builds tools and AI agent workflows with a person checking every step. Open to full-time roles and fractional engagements.">
+<meta name="author" content="Rashon Alsberry">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rashon Alsberry | Supply chain and third-party risk, automated">
+<meta property="og:description" content="I map who a business depends on, find the single points of failure hiding a tier or two down, and build tools and AI agent workflows that make that work repeatable, with a person checking every step.">
+<meta property="og:image" content="https://starboy1968.github.io/assets/map.png">
+<meta property="og:url" content="https://starboy1968.github.io/">
+<meta property="og:image:alt" content="Supply chain risk map showing how a hidden tier-2 dependency creates a single point of failure">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Rashon Alsberry</h1>
+    <p class="tagline">Supply chain and third-party risk, automated.</p>
+    <p class="status">Open to full-time roles and fractional engagements.</p>
+    <p class="intro">I map who a business depends on, find the single points of failure hiding a tier or two down, and build tools and AI agent workflows that make that work repeatable, with a person checking every step.</p>
+    <nav class="jump" aria-label="Sections">
+      <a href="#work">Featured work</a>
+      <a href="#writing">Writing</a>
+      <a href="#how">How I work</a>
+      <a href="#background">Background</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section id="work" class="wrap" aria-labelledby="work-h">
+    <h2 id="work-h">Featured work</h2>
+    <div class="cards">
+
+      <article class="card">
+        <a class="thumb" href="assets/hidden-single-points-of-failure.pdf">
+          <img src="assets/thumb-two-suppliers.png" width="800" height="500" alt="Detail of a supply chain risk map: two packaging suppliers both depend on one film plant, a hidden tier-2 single point of failure">
+        </a>
+        <div class="body">
+          <p class="kind">Case study</p>
+          <h3>Two Suppliers, One Factory</h3>
+          <p>A snack company thinks it has two packaging suppliers. Both rely on the same film plant one tier down, so it really has one. The study shows how to find that kind of hidden dependency, rank it, and set controls that buy time.</p>
+          <p class="note">Fictional company; all numbers are illustrative.</p>
+          <ul class="links">
+            <li><a href="https://github.com/Starboy1968/two-suppliers-one-factory/blob/main/article/article.md">Read the case study</a></li>
+            <li><a href="assets/hidden-single-points-of-failure.pdf">PDF</a></li>
+            <li><a href="https://github.com/Starboy1968/two-suppliers-one-factory">View on GitHub</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="thumb" href="https://github.com/Starboy1968/supply-web-audit">
+          <img src="assets/thumb-supply-web-audit.svg" width="800" height="500" alt="Diagram of the eight audit stages: scope, players, link ledger, money map, narrow points, behavior, test moves, signed report, with a sign-off check between each">
+        </a>
+        <div class="body">
+          <p class="kind">Framework</p>
+          <h3>Supply Web Audit</h3>
+          <p>An 8-stage method for auditing a business's supply web, from scope to a signed risk report. A person or an AI agent can run it, and a person signs off before each stage moves on. Every claim is labeled as established, assumed, or a gap.</p>
+          <p class="note">A method, not yet tested on a real client. The included walkthrough uses a fictional company.</p>
+          <ul class="links">
+            <li><a href="https://github.com/Starboy1968/supply-web-audit/blob/main/docs/WHY.md">Why I built it</a></li>
+            <li><a href="https://github.com/Starboy1968/supply-web-audit">View on GitHub</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="thumb" href="https://github.com/Starboy1968/grc-control-mapper">
+          <img src="assets/thumb-grc-control-mapper.svg" width="800" height="500" alt="Flow from policy text to mapper to analyst review to gap report, with supplier controls SR-2 and SA-9 highlighted">
+        </a>
+        <div class="body">
+          <p class="kind">Tool</p>
+          <h3>GRC Control Mapper</h3>
+          <p>Reads a security policy and maps each requirement to NIST SP 800-53 controls, including the supplier controls SR-2 and SA-9. Each match shows why it scored the way it did, and weak matches go to an analyst review queue instead of being trusted blindly.</p>
+          <p class="note">64 automated tests.</p>
+          <ul class="links">
+            <li><a href="https://github.com/Starboy1968/grc-control-mapper/blob/main/reports/acme_infosec_policy_report.md">See a sample report</a></li>
+            <li><a href="https://github.com/Starboy1968/grc-control-mapper">View on GitHub</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="thumb" href="https://github.com/Starboy1968/va-incident-mapper">
+          <img src="assets/thumb-va-incident-mapper.png" width="800" height="500" alt="Screenshot of the Incident Logger form, with fields for what happened, how the person felt, and evidence captured">
+        </a>
+        <div class="body">
+          <p class="kind">Tool</p>
+          <h3>VA Incident Mapper</h3>
+          <p>Helps someone document a cyber incident and produce reports they can hand to police or an attorney. Evidence is logged with SHA-256 hashes, so any later change to a record can be detected.</p>
+          <p class="note">51 automated tests. Not legal advice.</p>
+          <ul class="links">
+            <li><a href="https://github.com/Starboy1968/va-incident-mapper/blob/main/examples/sample-report.md">See a sample report</a></li>
+            <li><a href="https://github.com/Starboy1968/va-incident-mapper">View on GitHub</a></li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="writing" class="wrap" aria-labelledby="writing-h">
+    <h2 id="writing-h">Writing</h2>
+    <article class="writing">
+      <h3><a href="assets/ai-risk-memo.pdf">AI Risk Lives in the Permissions</a> <span class="fmt">(PDF, 3 pages)</span></h3>
+      <p>Treat unapproved AI tools the way you would an unvetted vendor, with a 30/60/90-day plan to inventory them, tighten their permissions, and add checks before their output reaches anyone. All sources checked.</p>
+    </article>
+  </section>
+
+  <section id="how" class="wrap" aria-labelledby="how-h">
+    <h2 id="how-h">How I work</h2>
+    <ol class="steps">
+      <li><span class="n" aria-hidden="true">1</span><div><h3>Talk it through and map it</h3><p>Start with the people who know the work, then draw who depends on whom.</p></div></li>
+      <li><span class="n" aria-hidden="true">2</span><div><h3>Break it into connected concepts</h3><p>Split the problem into small ideas and show how each one drives the next.</p></div></li>
+      <li><span class="n" aria-hidden="true">3</span><div><h3>Automate the repeatable parts</h3><p>Turn the steps that repeat into tools or AI agent workflows, with a person checking the result.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="background" class="wrap" aria-labelledby="bg-h">
+    <h2 id="bg-h">Background</h2>
+    <ul class="bg">
+      <li><strong>CompTIA Security+</strong></li>
+      <li><strong>B.A.S., George Mason University</strong></li>
+      <li><strong>IT service desk support for the Army</strong></li>
+      <li><strong>Years running restaurant kitchens</strong>, where a missing delivery means you're out of the dish tonight.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="wrap" aria-labelledby="contact-h">
+    <h2 id="contact-h">Contact</h2>
+    <ul class="contact">
+      <li>Email: <a href="mailto:shawnboi74@gmail.com">shawnboi74@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/Starboy1968">github.com/Starboy1968</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Rashon Alsberry</p>
+</footer>
+</body>
+</html>
